@@ -68,22 +68,34 @@ public class SimpleDouble implements SimpleNumber<Double> {
          * @return an int representing the value of this SimpleDouble
          */
         if(useTruncation) {
-            // If we're using truncation, all we need to do is cast to an int.
+            /**
+             * If we're using truncation, all we need to do is cast to an int.
+             */
             return (int)this.value;
         }
         else {
-            // If we're not using truncation, use our own rounding methods.
-            // First, get the truncated value.
+            /**
+             * If we're not using truncation, use our own rounding methods.
+             * First, get the truncated value.
+             */
             int theTruncatedValue = getIntegerValue(true);
-            // Cast it to a double to make sure we don't lose precision.
+            /**
+             * Cast it to a double to make sure we don't lose precision.
+             */
             double theTruncatedValueAsADouble = (double)theTruncatedValue;
-            // Get the decimal part of our value.
+            /**
+             * Get the decimal part of our value.
+             */
             double theDecimalPartOfOurValue = this.value - theTruncatedValueAsADouble;
-            // If the decimal part is greater than or equal to 0.5, we add one
-            // to theTruncatedValue and return. Otherwise, don't add one at all
-            // but still return theTruncatedValue.
+            /**
+             * If the decimal part is greater than or equal to 0.5, we add one
+             * to theTruncatedValue and return. Otherwise, don't add one at all
+             * but still return theTruncatedValue.
+             */
 
-            // TODO: move this logic to the RounderConfiguration class
+            /**
+             * TODO: move this logic to the RounderConfiguration class
+             */
             if(theDecimalPartOfOurValue >= 0.5) {
                 theTruncatedValue = theTruncatedValue + 1;
                 return theTruncatedValue;
