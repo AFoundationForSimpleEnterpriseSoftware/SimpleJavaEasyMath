@@ -16,7 +16,25 @@ import java.util.List;
  */
 import java.util.LinkedList;
 
-public class SimpleNumberCollection {
+/**
+ * Import the Iterator class. SimpleNumberCollections must return an iterator
+ * so that other classes can loop through the elements in the
+ * SimpleNumberCollection.
+ * @author Fox Wilson
+ * @version 1
+ * @since 0.0.1
+ */
+import java.util.Iterator;
+
+public class SimpleNumberCollection
+/**
+ * We can implement the Iterable interface to allow other parts of
+ * SimpleJavaEasyMath to run for-each loops over our code.
+ * @author Fox Wilson
+ * @version 1
+ * @since 0.0.1
+ */
+    implements Iterable {
     /**
      * A SimpleNumberCollection represents a collection of numbers. Operations
      * can be performed on the numbers in a SimpleNumberCollection.
@@ -97,5 +115,17 @@ public class SimpleNumberCollection {
              */
             return null;
         }
+    }
+
+    public Iterator<SimpleNumber> iterator() {
+        /**
+         * Get an iterator over the SimpleNumbers contained in this
+         * SimpleNumberCollection.
+         * @author Fox Wilson
+         * @version 1
+         * @since 0.0.1
+         * @return an iterator over SimpleNumbers
+         */
+        return (Iterator<SimpleNumber>)this.numberList.iterator();
     }
 }
