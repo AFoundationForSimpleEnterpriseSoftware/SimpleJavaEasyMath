@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleInteger implements SimpleNumber<Integer> {
     /**
      * Represents an integer, simply.

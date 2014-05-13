@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public enum SimpleCompareResult {
     /**
      * An enum type to represent comparison results from the SimpleComparable

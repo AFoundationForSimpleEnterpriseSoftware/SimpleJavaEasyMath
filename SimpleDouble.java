@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleDouble implements SimpleNumber<Double> {
     /**
      * Represents a double, simply.

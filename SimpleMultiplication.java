@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleMultiplication implements SimpleOperator {
     /**
      * SimpleMultiplication is a SimpleOperator which performs addition on the

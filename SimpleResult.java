@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 /**
  * We import the Map interface so that we can store additional attributes about
  * SimpleResults.

@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public interface SimpleComparable<E> {
     /**
      * An interface to compare two things simply. A type argument may be

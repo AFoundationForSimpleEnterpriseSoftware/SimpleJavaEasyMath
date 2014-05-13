@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleDivision implements SimpleOperator {
     /**
      * SimpleDivision is a SimpleOperator which performs addition on the

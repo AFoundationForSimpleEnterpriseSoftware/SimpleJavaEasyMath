@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleSubtraction implements SimpleOperator {
     /**
      * SimpleSubtraction is a SimpleOperator which performs addition on the

@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public interface SimpleOperator {
     /**
      * SimpleOperators perform mathematical operations on some SimpleNumbers.

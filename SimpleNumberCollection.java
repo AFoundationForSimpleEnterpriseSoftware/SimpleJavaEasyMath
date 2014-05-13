@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 /**
  * Import the List interface. We need this so we can build
  * SimpleNumberCollections out of any type of List.

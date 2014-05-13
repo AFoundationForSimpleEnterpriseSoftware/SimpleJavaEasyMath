@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public class SimpleCalculationRunner {
     /**
      * SimpleCalculationRunner contains methods to run calculations given a

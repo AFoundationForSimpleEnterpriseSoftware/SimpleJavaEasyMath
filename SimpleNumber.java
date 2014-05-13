@@ -1,3 +1,5 @@
+package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+
 public interface SimpleNumber<E> extends SimpleComparable<SimpleNumber> {
     /**
      * An interface to define the methods that SimpleNumbers should have.
