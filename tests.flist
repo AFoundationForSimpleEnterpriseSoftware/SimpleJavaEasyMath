@@ -1,0 +1,8 @@
+sesf/simplejavaeasymath/tests/SimpleTestCase.java
+sesf/simplejavaeasymath/tests/SimpleTestRunner.java
+sesf/simplejavaeasymath/tests/SimpleTestSuiteRunner.java
+sesf/simplejavaeasymath/tests/SJEMAdditionTestCase.java
+sesf/simplejavaeasymath/tests/SJEMDivisionTestCase.java
+sesf/simplejavaeasymath/tests/SJEMMultiplicationTestCase.java
+sesf/simplejavaeasymath/tests/SJEMSubtractionTestCase.java
+sesf/simplejavaeasymath/tests/SJEMTestSuiteRunner.java

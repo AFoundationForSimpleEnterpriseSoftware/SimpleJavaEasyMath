@@ -1,0 +1,17 @@
+sesf/simplejavaeasymath/SimpleCompareResult.java
+sesf/simplejavaeasymath/SimpleComparable.java
+
+sesf/simplejavaeasymath/SimpleNumber.java
+sesf/simplejavaeasymath/SimpleDouble.java
+sesf/simplejavaeasymath/SimpleInteger.java
+
+sesf/simplejavaeasymath/SimpleResult.java
+sesf/simplejavaeasymath/SimpleNumberCollection.java
+
+sesf/simplejavaeasymath/SimpleOperator.java
+sesf/simplejavaeasymath/SimpleAddition.java
+sesf/simplejavaeasymath/SimpleSubtraction.java
+sesf/simplejavaeasymath/SimpleMultiplication.java
+sesf/simplejavaeasymath/SimpleDivision.java
+
+sesf/simplejavaeasymath/SimpleCalculationRunner.java
