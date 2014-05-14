@@ -66,7 +66,7 @@ public class SimpleTestSuiteRunner {
          * @since 0.0.1
          */
         for(SimpleTestCase test : testsInSuite) {
-            System.out.print("Running " + test.name + "... ");
+            System.out.print("Running " + test.getName() + "... ");
             SimpleTestRunner runner = new SimpleTestRunner(test);
             boolean result = runner.run();
             if(result) {
@@ -89,12 +89,12 @@ public class SimpleTestSuiteRunner {
          */
         System.out.println("Tests that passed:");
         for(SimpleTestCase test : passedTests) {
-            System.out.println("(PASS) " + test.name);
+            System.out.println("(PASS) " + test.getName());
         }
         System.out.println();
         System.out.println("Tests that failed:");
         for(SimpleTestCase test : failedTests) {
-            System.out.println("(FAIL) " + test.name);
+            System.out.println("(FAIL) " + test.getName());
         }
         System.out.println();
         System.out.println(passedTests.size() + " pass, " + failedTests.size() + " fail");

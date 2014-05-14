@@ -8,14 +8,16 @@ public class SimpleTestCase {
      * @since 0.0.1
      */
 
-    /**
-     * name is a friendly name for this test case that will be displayed when
-     * the test fails.
-     * @author Fox Wilson
-     * @version 1
-     * @since 0.0.1
-     */
-    public final String name = "Default test case";
+    public String getName() {
+        /**
+         * getName returns a friendly name for this test case that will be
+         * displayed when the test fails.
+         * @author Fox Wilson
+         * @version 1
+         * @since 0.0.1
+         */
+        return "Default test case";
+    }
 
     public SimpleTestCase() {
         /**
