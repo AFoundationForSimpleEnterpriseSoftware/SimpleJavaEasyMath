@@ -24,3 +24,11 @@ double onePlusTwo = SimpleCalculationRunner.runTwo(new SimpleAddition(), new Sim
 ```
 
 Simple, isn't it? SimpleJavaEasyMath is currently available at version 0.0.1.
+
+## Building
+`make build-sjem` will build the project. `make test` will test the project.
+
+## For Developers
+Make sure to keep `core.flist` and `tests.flist` up-to-date. They should be in
+order with respect to file dependencies. Run `make clean` followed by
+`make test` to check that.
