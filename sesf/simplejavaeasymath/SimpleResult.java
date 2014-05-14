@@ -1,4 +1,4 @@
-package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+package sesf.simplejavaeasymath;
 
 /**
  * We import the Map interface so that we can store additional attributes about

@@ -1,4 +1,4 @@
-package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+package sesf.simplejavaeasymath;
 
 public class SimpleInteger implements SimpleNumber<Integer> {
     /**

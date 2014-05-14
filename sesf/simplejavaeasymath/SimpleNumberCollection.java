@@ -1,4 +1,4 @@
-package com.github.simpleenterprisesoftwarefoundation.simplejavaeasymath;
+package sesf.simplejavaeasymath;
 
 /**
  * Import the List interface. We need this so we can build
