@@ -7,6 +7,7 @@ public class SimpleCalculationRunner {
      * @author Fox Wilson
      * @version 1
      * @since 0.0.1
+     * @deprecated
      */
 
     public static SimpleResult runOne(SimpleOperator operator, SimpleNumber one) {
