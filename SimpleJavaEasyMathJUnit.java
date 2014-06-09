@@ -13,10 +13,10 @@ public class SimpleJavaEasyMathJUnit {
       two=new SimpleDouble("2.0");
    }
 
-   /** A test that checks the addition of 1+1. **/
+   /** A test that checks the addition of 1+2. **/
    @Test public void defaultTest() {
       SimpleOperator adder=new SimpleAddition();
       SimpleResult r=SimpleCalculationRunner.runTwo(adder,one,two);
-      assertEquals(r.getNumber().getDoubleValue(),3.0,1E-6);
+      assertEquals(r.getNumber().getDoublValue(),3.0,1E-6);
    }
 }
