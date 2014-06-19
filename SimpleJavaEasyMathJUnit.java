@@ -5,6 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class SimpleJavaEasyMathJUnit {
+   /**
+    * @deprecated
+    * /
    private SimpleNumber one;
    private SimpleNumber two;
    /** Fixture initialization **/
