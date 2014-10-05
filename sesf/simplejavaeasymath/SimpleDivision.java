@@ -53,7 +53,7 @@ public class SimpleDivision implements SimpleOperator {
             }
 
             else {
-                current -= currentNumber.getDoubleValue();
+                current /= currentNumber.getDoubleValue();
             }
 
             thisIndex++;
