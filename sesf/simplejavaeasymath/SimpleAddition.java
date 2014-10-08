@@ -1,6 +1,8 @@
 package sesf.simplejavaeasymath;
 
 public class SimpleAddition implements SimpleOperator {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * SimpleAddition is a SimpleOperator which performs addition on the
      * contents of a SimpleNumberCollection.
