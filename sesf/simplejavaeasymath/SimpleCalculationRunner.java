@@ -1,6 +1,8 @@
 package sesf.simplejavaeasymath;
 
 public class SimpleCalculationRunner {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * SimpleCalculationRunner contains methods to run calculations given a
      * SimpleOperator and SimpleNumber arguments.
