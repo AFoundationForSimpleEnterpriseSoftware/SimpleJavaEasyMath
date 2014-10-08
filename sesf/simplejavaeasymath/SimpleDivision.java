@@ -1,6 +1,8 @@
 package sesf.simplejavaeasymath;
 
 public class SimpleDivision implements SimpleOperator {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * SimpleDivision is a SimpleOperator which performs addition on the
      * contents of a SimpleNumberCollection.
