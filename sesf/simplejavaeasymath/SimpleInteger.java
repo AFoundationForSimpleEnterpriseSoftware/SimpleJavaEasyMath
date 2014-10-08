@@ -1,6 +1,8 @@
 package sesf.simplejavaeasymath;
 
 public class SimpleInteger implements SimpleNumber<Integer> {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * Represents an integer, simply.
      * @author Fox Wilson
