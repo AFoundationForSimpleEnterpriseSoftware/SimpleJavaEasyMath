@@ -20,6 +20,8 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class SimpleResult {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * SimpleResults store the result of a calculation performed by a
      * SimpleOperator.
@@ -27,15 +29,6 @@ public class SimpleResult {
      * @version 1
      * @since 0.0.1
      */
-    
-    
-    /**
-     * Checks License.
-     * @author TCYRUS
-     * @version 1
-     * @since 0.0.1
-     */
-    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
     
     /**
      * This field stores the actual result.
