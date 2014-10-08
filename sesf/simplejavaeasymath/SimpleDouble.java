@@ -1,6 +1,8 @@
 package sesf.simplejavaeasymath;
 
 public class SimpleDouble implements SimpleNumber<Double> {
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * Represents a double, simply.
      * @author Fox Wilson
