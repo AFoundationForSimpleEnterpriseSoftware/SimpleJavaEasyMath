@@ -12,7 +12,10 @@ public class SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSo
   // By Modifying This Code You Have Accept The GNU GENERAL PUBLIC LICENSE
   private boolean SimpleGPLLicenseVerificationBoolean = false;
   
-  public SimpleResult hasAcceptedTheGPLLicense() {
-    return SimpleGPLLicenseVerificationBoolean;
+  public static void checkIfUserHasAcceptedTheGPLLicense() {
+    if (!(SimpleGPLLicenseVerificationBoolean)) {
+      throw new SimpleGPLLicenseVerificationExceptionForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath("Please Edit The SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath To Accept The  GNU GENERAL PUBLIC LICENSE");
+    }
   }
 }
+class SimpleGPLLicenseVerificationExceptionForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath extends Exception {}
