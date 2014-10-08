@@ -1,6 +1,8 @@
 SimpleJavaEasyMath
 ==================
 
+**Make Sure To Edit SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.java**
+
 SimpleJavaEasyMath is a library to abstract away all the difficulties of the
 traditional way of doing math in Java. It offers classes and methods to support
 the object-oriented programming paradigm.
@@ -24,6 +26,7 @@ double onePlusTwo = SimpleCalculationRunner.runTwo(new SimpleAddition(), new Sim
 ```
 
 Simple, isn't it? SimpleJavaEasyMath is currently available at version 0.0.1.
+We will release version EE 1.0 in the near future.
 
 ## Building
 `make build-sjem` will build the project. `make test` will test the project.
