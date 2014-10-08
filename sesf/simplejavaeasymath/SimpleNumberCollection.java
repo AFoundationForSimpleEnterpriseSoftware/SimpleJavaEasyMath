@@ -37,6 +37,7 @@ public class SimpleNumberCollection
  * @since 0.0.1
  */
     implements Iterable {
+        SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
     /**
      * A SimpleNumberCollection represents a collection of numbers. Operations
      * can be performed on the numbers in a SimpleNumberCollection.
@@ -55,8 +56,6 @@ public class SimpleNumberCollection
     LinkedList<SimpleNumber> numberList;
 
     public SimpleNumberCollection() {
-        SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
-        
         /**
          * Create a new SimpleNumberCollection. This constructor creates an
          * empty SimpleNumberCollection.
@@ -68,8 +67,6 @@ public class SimpleNumberCollection
     }
 
     public SimpleNumberCollection(List<SimpleNumber> numberList) {
-        SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
-        
         /**
          * Create a new SimpleNumberCollection based on a List of
          * SimpleNumbers.
@@ -95,9 +92,7 @@ public class SimpleNumberCollection
          * @return the SimpleNumber added, or "null" if there was a problem
          * adding the SimpleNumber to the SimpleNumberCollection.
          */
-         
-        SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
-         
+        
         try {
             /**
              * Actually add the number to the list.
@@ -127,8 +122,6 @@ public class SimpleNumberCollection
     }
 
     public Iterator<SimpleNumber> iterator() {
-        SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
-        
         /**
          * Get an iterator over the SimpleNumbers contained in this
          * SimpleNumberCollection.
