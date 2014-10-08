@@ -27,7 +27,16 @@ public class SimpleResult {
      * @version 1
      * @since 0.0.1
      */
-
+    
+    
+    /**
+     * Checks License.
+     * @author TCYRUS
+     * @version 1
+     * @since 0.0.1
+     */
+    SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath.checkIfUserHasAcceptedTheGPLLicense();
+    
     /**
      * This field stores the actual result.
      * @author Fox Wilson
