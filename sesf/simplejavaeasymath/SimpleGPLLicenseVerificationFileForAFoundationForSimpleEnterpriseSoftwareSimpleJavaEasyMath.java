@@ -9,11 +9,11 @@ public class SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSo
      * @since 0.0.1
   */
   
-  // By Modifying This Code You Have Accept The GNU GENERAL PUBLIC LICENSE
-  private boolean SimpleGPLLicenseVerificationBoolean = false;
+  // By Modifying This Code You Have Accepted The GNU GENERAL PUBLIC LICENSE
+  private boolean SimpleGNUGPLLicenseVersionThreePointOhFromTheGnuDotOrgWebsite = false;
   
   public static void checkIfUserHasAcceptedTheGPLLicense() {
-    if (!(SimpleGPLLicenseVerificationBoolean)) {
+    if (!(SimpleGNUGPLLicenseVersionThreePointOhFromTheGnuDotOrgWebsite)) {
       throw new SimpleGPLLicenseVerificationExceptionForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath("Please Edit The SimpleGPLLicenseVerificationFileForAFoundationForSimpleEnterpriseSoftwareSimpleJavaEasyMath To Accept The GNU GENERAL PUBLIC LICENSE");
     }
   }
